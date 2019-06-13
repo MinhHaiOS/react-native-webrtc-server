@@ -3,10 +3,7 @@
   "version": "0.0.1",
   "description": "react-native-webrtc server",
   "main": "app.js",
-  "author": "Oney",
-  "engines": {
-    "node": "v4.1.0"
-  },
+  "author": "Minh Hai",
   "scripts": {
     "open": "heroku open",
     "logs": "heroku logs --tail",
