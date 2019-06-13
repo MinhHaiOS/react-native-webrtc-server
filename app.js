@@ -65,6 +65,11 @@ io.on('connection', function(socket){
     socket.room = name;
   });
 
+  socket.on("client_send_color", (data) => {
+    console.log(data);
+    io.sockets.emit("server_send_color", data);
+  });
+
 
   socket.on('exchange', function(data){
     console.log('exchange', data);
